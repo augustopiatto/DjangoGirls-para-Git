@@ -1,7 +1,7 @@
 {% load static %}
 <html>
     <head>
-        <title>Blog do Augustinho</title>
+        <title>Blog dos pet</title>
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
         <link rel="stylesheet" href="{% static 'css/blog.css' %}">
@@ -14,7 +14,7 @@
         {% endif %}
             <a href="{% url 'login' %}" class="top-menu"><span class="glyphicon glyphicon-plus"></span></a>
             <a href="{% url 'logout' %}" class="top-menu"><span class="glyphicon glyphicon-plus"></span></a>
-        <h1><a href="/">Blog do Augustinho</a></h1>
+        <h1><a href="/">Blog dos pet</a></h1>
     </div>
     <div class="content container">
         {% block content %}
