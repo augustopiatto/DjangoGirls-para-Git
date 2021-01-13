@@ -7,13 +7,14 @@
             <h3><a href="{% url 'post_detail' pk=post.pk %}">{{ post.title }}</a></h3>
             <p>{{ post.text|linebreaksbr }}</p> 
         </div>
-        <div class="col-md-4">
+
+        <div class="col-md-3">
             <img src="https://catiororeflexivo.com/wp-content/uploads/2019/11/tiniest-cavalier-puppy-nessa-1-5dd542032dfde__700.jpg" width="400" class="location">
         </div>
     </div>
     <div class="post row">
         <div class="date">
-            <p>published: {{ post.published_date }}</p>
+            <p>published: '27/05/1995' </p>
         </div>
     </div>
 {% endfor %}
